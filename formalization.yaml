@@ -1,0 +1,24 @@
+jsp_id: JSP-000404
+catalog_url: https://github.com/TheJustinSunPrize/awards/blob/main/problems/catalog-0401-0500.md#JSP-000404
+status: wip
+prize_ready: false
+github_owner: Yi-111-a
+lean_repository: https://github.com/Yi-111-a/jsp-000404-blumenthal-sendov
+branch: main
+commit_sha: ""
+headline_theorems:
+  - sendov_minimax_angle
+roles:
+  formalization_operators:
+    - Yi-111-a
+  mathematical_solvers_literature:
+    - "Sendov (Se92), C. R. Acad. Bulgare Sci. (1992)"
+    - "Sendov (Se93), C. R. Acad. Bulgare Sci. (1993) — definitive resolution"
+    - "Szekeres (Sz41), Amer. J. Math. (1941)"
+    - "Erdős–Szekeres (ErSz60)"
+attribution_basis: |
+  Formalization work under GitHub account Yi-111-a. Mathematical solution
+  credits remain with the published literature. This stub does not claim the prize.
+build:
+  toolchain_file: lean/lean-toolchain
+  command: lake build

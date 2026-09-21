@@ -1,0 +1,9 @@
+{
+  "jsp_id": "JSP-000404",
+  "catalog_url": "https://github.com/TheJustinSunPrize/awards/blob/main/problems/catalog-0401-0500.md#JSP-000404",
+  "original_question_en": "What is the largest angle that every planar set of a prescribed number of points must determine?",
+  "required_theorems": [
+    "sendov_minimax_angle"
+  ],
+  "notes": "Full Sendov Se93 formula for \u03b1_N; partial N-ranges or ErSz60 dyadic equalities alone are not prize_ready."
+}
